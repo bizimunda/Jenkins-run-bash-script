@@ -1,3 +1,3 @@
 #!/bin/bash
 ls -la | awk '{print $9}'
-chmod +x myscript.sh
+chmod u+x example.sh
