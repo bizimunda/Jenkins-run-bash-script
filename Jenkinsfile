@@ -13,6 +13,7 @@ pipeline {
         stage('Running script file') {
             steps {
                 sh "chmod +x -R ${env.WORKSPACE}/myscript.sh"
+                sh './myscript.sh'
             }
 
         }
