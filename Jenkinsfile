@@ -13,7 +13,7 @@ pipeline {
         stage('Running script file') {
             steps {
                 sh "chmod +x -R ${env.WORKSPACE}"
-                sh './myscript.sh'
+                sh './jenkins/running_bash_script/test.sh'
             }
 
         }
